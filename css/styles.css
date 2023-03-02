@@ -110,6 +110,9 @@ ul {
   text-align: center;
   color: var(--brand-color);
   cursor: pointer;
+  width: 121px;
+  height: 38px;
+  border-radius: 4px;
 }
 .categories:hover {
   background-color: var(--color);
