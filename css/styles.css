@@ -209,6 +209,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
+  padding-bottom: 50px;
 }
 
 .team-photo {
@@ -225,6 +226,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
+  padding-bottom: 50px;
 }
 .img-photo {
   width: 270px;
