@@ -28,11 +28,10 @@ ul {
   justify-content: space-between;
   list-style-type: none;
 }
-.header {
-  background-color: var(--color4);
-}
 .headline {
+  background-color: var(--color4);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -52,8 +51,10 @@ ul {
 .logo-web {
   color: var(--color);
 }
+
 .nav {
-  padding-left: 93px;
+  display: flex;
+  justify-content: space-between;
 }
 .navigation {
   text-decoration: none;
@@ -61,7 +62,7 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   color: var(--brand-color);
-  padding-left: 46px;
+  padding-left: 43px;
 }
 .navigation:hover {
   color: var(--color);
@@ -69,21 +70,24 @@ ul {
 .navigation:focus {
   color: var(--color);
 }
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
 .contacts {
-  padding-left: 364px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   color: var(--color2);
 }
-.contact {
+.contacts {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   color: var(--color2);
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .contacts:hover {
@@ -92,6 +96,7 @@ ul {
 .contacts:focus {
   color: var(--color);
 }
+
 .main {
   background-color: var(--color4);
 }
@@ -162,6 +167,8 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color4);
+  width: 200px;
+  height: 50px;
 }
 .list-class {
   display: flex;
