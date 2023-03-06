@@ -147,6 +147,12 @@ ul {
 .img {
   border: 1px solid #eeeeee;
 }
+.picture {
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1130px;
+}
 
 .wrapper {
   background: var(--color3);
@@ -219,6 +225,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
+}
+.img-photo {
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
 }
 
 .employees {
