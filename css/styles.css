@@ -99,11 +99,11 @@ ul {
 
 .main {
   background-color: var(--color4);
+  padding-top: 100px;
 }
 .menu {
-  display: inline-flex;
-  margin-left: 510px;
-  padding-top: 94px;
+  display: flex;
+  justify-content: center;
 }
 .menu-items {
   padding-left: 8px;
