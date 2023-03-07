@@ -142,15 +142,22 @@ ul {
   font-size: 18px;
   line-height: 2;
   color: var(--brand-color);
+  margin-left: 24px;
+  padding-top: 20px;
 }
 .list-primary-items {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--color2);
+  margin-left: 24px;
 }
 .img {
   border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
 }
 .picture {
   width: 370px;
