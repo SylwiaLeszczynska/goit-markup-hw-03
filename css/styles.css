@@ -30,6 +30,7 @@ ul {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
+
 .headline {
   background-color: var(--color4);
   display: flex;
@@ -132,6 +133,8 @@ ul {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
 }
 .list-primary-name {
   font-style: normal;
@@ -180,10 +183,9 @@ ul {
 }
 .list-class {
   display: flex;
+  justify-content: space-between;
 }
-.list {
-  padding-right: 30px;
-}
+
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -211,9 +213,6 @@ ul {
   color: var(--color2);
   text-align: left;
 }
-.description {
-  padding-left: 30px;
-}
 .description-title {
   font-weight: 700;
   font-size: 36px;
@@ -222,6 +221,10 @@ ul {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   padding-bottom: 50px;
+}
+.list-photo {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-photo {
