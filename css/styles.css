@@ -248,9 +248,10 @@ ul {
     text-align: center;
     color: var(--brand-color);
     cursor: pointer;
-    width: 121px;
-    height: 38px;
     background: #f5f4fa;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
 }
 
 .categories-button:is(:hover, :focus) {
@@ -300,7 +301,7 @@ ul {
 
 .footer {
     background: var(--color3);
-    padding: 60px 0 161px;
+    padding: 60px 0;
 }
 .address {
     font-style: normal;
